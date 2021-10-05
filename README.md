@@ -7,7 +7,7 @@ Practice 1 -- Sex-ICD10-D259
 **Aims**: 
 1. familiar with UKB data;
 
-          2. practice R and R packages.
+2. practice R and R packages.
 
 **Addressed question**: 
 select an ICD10 disease code and find the percentage of males and females who have this disease.
@@ -19,6 +19,6 @@ select an ICD10 disease code and find the percentage of males and females who ha
       
       `cut -f 1,2,2926-3138 ukb34137.tab > 41270.tab`
       
-             2. use R script Sex_ICD10_D259.R to complete the practice. Please see detail in Sex_ICD10_D259.R
+2. use R script Sex_ICD10_D259.R to complete the practice. Please see detail in Sex_ICD10_D259.R
 
 **Date**: 10/05/2021 
