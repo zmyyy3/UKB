@@ -11,7 +11,9 @@ Practice 1 -- Sex-ICD10-D259
 
 **Results**: 1. use following to get data.
 
-            `commands head -n 1 ukb34137bu.tb | awk '{for(i=0;++i<=NF;)a[i]=a[i]?a[i] FS $i:$i}END{for(i=0;i++<NF;)print a[i]}' | grep -n "f.41270" |cut -d ":" -f 1` 
+            ```
+            commands head -n 1 ukb34137bu.tb | awk '{for(i=0;++i<=NF;)a[i]=a[i]?a[i] FS $i:$i}END{for(i=0;i++<NF;)print a[i]}' | grep -n "f.41270" |cut -d ":" -f 1
+            ```
             
             `cut -f 1,2,2926-3138 ukb34137.tab > 41270.tab`   
              
