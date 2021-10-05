@@ -15,6 +15,7 @@ Practice 1 -- Sex-ICD10-D259
             
             `cut -f 1,2,2926-3138 ukb34137.tab > 41270.tab`   
              
+             
              2. use R script Sex_ICD10_D259.R to complete the practice. Please see detail in Sex_ICD10_D259.R.
 
 **Date**: 10/05/2021 
