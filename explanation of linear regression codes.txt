@@ -1,0 +1,1 @@
+Data new contains information of phenotypes, ages, centers, sex and Geno_batch. This for loop is using the linear regression as the model to reveal the association between phenotypes and ages, centers, sex and geno_batch, and writing the residual of regression equation into the martix resdat.
